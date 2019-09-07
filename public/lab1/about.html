@@ -1,13 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ABOUT</title>
+     <meta charset="UTF-8">
+    <title>Parker Erickson</title>
+    <link href = "css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Manjari:100&display=swap" rel="stylesheet">
     <style>
+        table {
+            margin: 0 auto;
+        }
+        td {
+            padding-right: 10px;
+            font-size: 1.3em;
+        }
+        
+        #table-head {
+            background-color: #9dede2;
+        }
+        
+        .table-row {
+            background-color: #ccf0eb;
+        }
+        
+        header {
+            font-size: 30px;
+        }
+        body {
+            background-color: slategrey;
+            text-align: center;
+            font-family: 'Manjari', sans-serif;
+            color: #e36f5b;
+        }
+        main{
+            display: flex;
+            font-family: 'Manjari', sans-serif;
+            color: aliceblue;
+        }
 
+        figure.box{
+            -moz-box-shadow: 5px 5px 5px 5px #e36f5b;
+            -webkit-box-shadow: 5px 5px 5px 5px #e36f5b;
+            box-shadow: 5px 5px 5px 5px #e36f5b;
+            height: 233px;
+        }
+
+        a {
+            padding: 20px;
+            padding-bottom: 5px;
+            color: aliceblue;
+            font-size: 2em;
+        }
+
+        a:hover {
+            border-bottom: 3px #222222;
+            font-size: 2.2em;
+            color: cadetblue;
+            transition: .5s;
+        }
+
+        strong {
+            font-size: 30px;
+            color: #e36f5b;
+        }
+        .hobby{
+            color: #91ebd4;
+        }
+        
+        ul{
+            text-align: left;
+        }
+        #list{
+         padding-left: 12%;
+         padding-right:12%;
+        }
     </style>
 </head>
 <body>
+  <header>
+        <h1>Parker Erickson </h1>
+    </header>
+    <hr>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+    <br>
+    <br>
+    <div id = "content">
+        <table>
+        <tr id="table-head">
+            <td><strong>Programming Language</strong></td>
+            <td><strong>Years Experiance</strong></td>
+        </tr>
+        <tr class="table-row">
+            <td>java</td>
+            <td>3</td>
+        </tr>
+        <tr class="table-row">
+            <td>python</td>
+            <td>1</td>
+        </tr>
+        <tr class="table-row">
+            <td>C</td>
+            <td>1/2</td>
+        </tr>
+    </table>
 
+    
+    <ul id="list">
+        <li><span class="hobby">Dog</span>: I have a companion named Finn; he is a Blue Heeler. We love to train and learn new tricks!</li>
+        <li><span class="hobby">Video Games</span>: I exclusively play Legend of Zelda and Mario games.</li>
+        <li><span class="hobby">Music</span>: I play Trumpet, and look up to Wynton Marsalis</li>
+        <li><span class="hobby">Programming</span>: I'm working on building a solid portfolio on Github</li>
+    </ul>
+    </div>
+    <hr>
+    <footer>
+        CST336 Internet Programming. 2019 Erickson <br />
+    </footer>
 </body>
 </html>
