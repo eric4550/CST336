@@ -36,20 +36,6 @@
             font-family: 'Manjari', sans-serif;
             color: aliceblue;
         }
-        
-        #links {
-            padding: 20px;
-            padding-bottom: 5px;
-            color: aliceblue;
-            font-size: 2em;
-        }
-
-        #links:hover {
-            border-bottom: 3px #222222;
-            font-size: 2.2em;
-            color: cadetblue;
-            transition: .5s;
-        }
 
         figure.box{
             -moz-box-shadow: 5px 5px 5px 5px #e36f5b;
@@ -57,11 +43,17 @@
             box-shadow: 5px 5px 5px 5px #e36f5b;
             height: 233px;
         }
-        #email {
-            color: white;
+
+        a {
+            padding: 20px;
+            padding-bottom: 5px;
+            color: aliceblue;
+            font-size: 2em;
         }
-        #email:hover {
+
+        a:hover {
             border-bottom: 3px #222222;
+            font-size: 2.2em;
             color: cadetblue;
             transition: .5s;
         }
@@ -77,31 +69,26 @@
         ul{
             text-align: left;
         }
-        #content{
-            content: center;
+        #list{
+         padding-left: 12%;
+         padding-right:12%;
         }
     </style>
 </head>
 <body>
-  <header>
+        <header>
         <h1>Parker Erickson </h1>
     </header>
     <hr>
     <nav>
-        <a id= links href="home.html">HOME</a>
-        <a id= links href="about.html">ABOUT</a>
-        <a id= links href="contact.html">CONTACT</a>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
     </nav>
     <br>
-    <br>
-
-<div>
-    CONTACT ME:  <a id=email href="mailto:perickson@csumb.edu">email</a>
-</div>
-<br>
-<br>
-<hr>
-
+<div id="googleForm">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVhgH2UAJGSI451ia0xJsA_vjx6k4_-MycDLqqsgrDNX_ALw/viewform?embedded=true" width="640" height="892" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
 <footer>
     CST336 Internet Programming. 2019 Erickson <br />
 </footer>
