@@ -1,0 +1,39 @@
+ body {
+     text-align: center;
+     background-color: #637591;
+ }
+
+ img {
+     height: 200px;
+ }
+
+
+ p,
+ a {
+     color: #2cf01a;
+     font-weight: bold
+ }
+
+#title {
+     font-size: 50px;
+     text-align: center;
+     
+ }
+
+h1{
+color: #ff954a;
+font-family: monospace;
+font-size: 100px;
+        
+}
+
+ #machine {
+     text-align: center;
+     background-color: #bf30a0;
+ }
+ 
+ #enter {
+     color: #ff954a;
+ }
+ 
+ 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cat Machine</title>
+
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="js/script.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    
+</head>
+
+<body>
+
+    <p id="title">
+        <h1>Cat Slots</h1>
+    </p>
+
+
+    <div id="machine">
+
+
+        <img id="first" src="img/cat1.png"></img>
+        <img id="second" src="img/cat2.png"></img>
+        <img id="third" src="img/cat3.png"></img>
+
+        <p>
+            <input type="button" value="Click Here To Spin" onclick="spin()">
+        </p>
+
+        <p id="enter">
+            Enter Plays: 
+            <input type="text" id="plays"/>
+            <a href="javascript:initialCount()">Add Credit</a>
+        </p>
+
+        <p id="p2">0</p>
+
+        <p id="messages"></p>
+
+</body>
