@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Project 3 </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+
+
+
+    <h1 class="jumbotron text-center">Cocktail Lookup</h1>
+    <div id="content" class="form-group">
+        <hr>
+
+        <div id='form' class="d-flex flex-row justify-content-center">
+            <strong><span id="searchText">Search a cocktail: </span></strong>
+            <input type="text" id="search" name="search" placeholder="Margarita"/>
+            <button id='myBtn' class="btn btn-primary btn-sm">Search</button>
+        </div>
+
+        <hr>
+
+        </div >
+        <div id="mainBox" class="d-flex">
+        <div id="contentLeft">
+            <h1 class="text-center"><strong><span id="drinkNm"></span></strong></h1>
+            <img id='image' height=400px>
+        </div>
+        <div id="output" class="d-flex flex-row justify-content-center">
+            <div id=ingrediants>
+                <div id="directions"></div>
+                <br>
+                <div id="glass"></div>
+                <br>
+                <table id="ingrediantsList"></table>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
